@@ -1,0 +1,186 @@
+* {
+    font-weight: 300;
+
+font-family: 'Poppins', sans-serif;
+
+    color: #0f0606;
+   
+}
+
+body {
+  
+    margin-left: 100px;
+    margin-right:100px;
+    background: linear-gradient(to bottom, #f0f0f088, #376394be)
+}
+
+.titulo {
+    color: #000000;
+    font-size: 45px;
+font-weight: 500;
+    text-size-adjust:inherit;
+    text-shadow: 2px 2px 4px rgb(121, 121, 121);
+      letter-spacing: 0.01px;
+    text-align: center;
+  
+  
+
+}
+.imagen {
+    width: 250px;
+    height: 262px;
+    border-radius: 99px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    float: left ;
+ margin: 20px;
+
+}
+
+#indice {
+    background-color: #fff;
+   margin-left: 100px;
+   border-radius: 20px;
+}
+
+.descripcion{
+    font-weight: bolder;
+    margin-top: 50px;
+   
+    
+}
+
+#experiencia {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#educacion {
+margin-bottom: 60px;
+}
+
+  #perfiles {
+    float:right;
+   font-size: 15px;
+ border-radius: 20px;
+ display:flex;
+  }
+
+#github {
+    background-color: #a7c7ecad;
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-right: 5px;
+}
+
+  #github:hover{
+background-color: aliceblue;
+
+
+  }
+
+  #linkedin {
+    background-color: #a7c7ecad;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
+
+  #linkedin:hover{
+background-color: aliceblue;
+
+
+  }
+
+
+
+h1, h2, h3 {
+    color: #000000;
+    
+ 
+}
+
+ul {
+    list-style: none;
+
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+
+
+}
+
+th {
+    background-color: rgba(224, 224, 224, 0.801);
+}
+td{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+th, td {
+    padding: 10px;
+    border-style:solid ;
+    border-color: #a0a0a0;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+   
+}
+
+hr {
+    border-style:ridge;
+    border-color: #ffffff;
+}
+
+#contactar {
+   border-radius: 10px;
+   padding-inline: 20px;
+ background-color: #ccc;
+ border-style: solid;
+ border-color: #a0a0a0;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+select {
+    width: 101%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="button"] {
+    background-color: #181a248f;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    padding: 5px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[name="cuerpo"] {
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
